@@ -1,3 +1,26 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px;
+}
+
+
+.footer {
+   position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+    
+}
+
+.footer-block{
+	text-align:center;
+	margin-top:25px;
+}
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
